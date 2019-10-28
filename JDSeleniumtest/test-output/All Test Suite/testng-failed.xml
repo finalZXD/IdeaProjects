@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.lin.selenium.util.TestngListenerScreenShot"/>
+    <listener class-name="com.lin.selenium.util.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="2" name="C:/Users/shulin.xu/IdeaProjects/JDSeleniumtest(failed)" parallel="methods">
+    <classes>
+      <class name="com.lin.selenium.testCase.TestShopping">
+        <methods>
+          <include name="testSearchCommodity" invocation-numbers="1"/>
+          <include name="BeforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.lin.selenium.testCase.TestShopping -->
+    </classes>
+  </test> <!-- C:/Users/shulin.xu/IdeaProjects/JDSeleniumtest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

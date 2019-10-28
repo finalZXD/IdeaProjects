@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13a91e11-e4a2-42e4-9635-26f531d10647" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="seleniumTestlearn" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="login" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Apache/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1P2ohfzX3cc4WR2grmH6yZhTPmf" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shulin.xu\IdeaProjects\seleniumTestlearn\src\test\java" />
+      <recent name="C:\Users\shulin.xu\IdeaProjects\seleniumTestlearn\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.Login">
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learnTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learnTest" />
+      <option name="MAIN_CLASS_NAME" value="learnTest.Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.lin.selenium.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.selenium.testCase.login" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin.selenium.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.selenium.testCase.login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin.selenium.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.selenium.testCase.login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login.SearchCourse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin.selenium.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.selenium.testCase.login" />
+      <option name="METHOD_NAME" value="SearchCourse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login.getLoginHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin.selenium.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.selenium.testCase.login" />
+      <option name="METHOD_NAME" value="getLoginHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testCourseList" type="TestNG" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin.selenium.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.selenium.testCase.testCourseList" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testCourseList.testCourseList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.selenium.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin.selenium.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.selenium.testCase.testCourseList" />
+      <option name="METHOD_NAME" value="testCourseList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.testCourseList" />
+      <item itemvalue="TestNG.login" />
+      <item itemvalue="TestNG.testCourseList.testCourseList" />
+      <item itemvalue="TestNG.login.SearchCourse" />
+      <item itemvalue="TestNG.login.getLoginHome" />
+      <item itemvalue="TestNG.Login" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.login" />
+        <item itemvalue="TestNG.login.getLoginHome" />
+        <item itemvalue="TestNG.login.SearchCourse" />
+        <item itemvalue="TestNG.testCourseList.testCourseList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13a91e11-e4a2-42e4-9635-26f531d10647" name="Default Changelist" comment="" />
+      <created>1565081672546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565081672546</updated>
+    </task>
+    <servers />
+  </component>
+</project>

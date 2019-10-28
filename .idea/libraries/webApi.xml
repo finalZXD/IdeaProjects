@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webApi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JDSeleniumtest/target/webApi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

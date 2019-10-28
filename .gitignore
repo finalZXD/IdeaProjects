@@ -1,0 +1,4 @@
+# Project exclude paths
+/BIM/target/
+/JDSeleniumtest/target/
+/test/target/

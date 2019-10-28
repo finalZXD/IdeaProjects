@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="true" thread-count="2">
+    <listeners>
+        <listener class-name="com.lin.selenium.util.TestngListenerScreenShot"/>
+        <listener class-name="com.lin.selenium.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+    <test verbose="2" name="C:/Users/shulin.xu/IdeaProjects/JDSeleniumtest" skipfailedinvocationcounts="true">
+<!--        <parameter name="SearchName" value="小白兔"></parameter>
+        <parameter name="ShopListNum" value="3"></parameter>-->
+        <classes>
+            <class name="com.lin.selenium.testCase.TestBase"></class>
+            <class name="com.lin.selenium.testCase.TestShopping">
+                <methods>
+                    <include name="testSearchCommodity"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--    <test verbose="2"  name="C:/Users/shulin.xu/IdeaProjects/JDSeleniumtest1">-->
+<!--        <parameter name="SearchName" value="蛋白粉"></parameter>-->
+<!--        <parameter name="ShopListNum" value="1"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.lin.selenium.testCase.TestShopping">-->
+<!--                <methods>-->
+<!--                    <include name="testSearchCommodity"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

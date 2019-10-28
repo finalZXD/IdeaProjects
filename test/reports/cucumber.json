@@ -1,0 +1,218 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Testing Search with Baidu",
+        "description": "",
+        "id": "baidusearch;testing-search-with-baidu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13790969700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser With Chrome",
+            "match": {
+              "location": "BaiduSearchStep.open_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2537346400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser baidu url \"https://www.baidu.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.baidu.com",
+                  "offset": 19
+                }
+              ],
+              "location": "BaiduSearchStep.browserBaiduUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 636193900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "input SearchText \"context\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "context",
+                  "offset": 18
+                }
+              ],
+              "location": "BaiduSearchStep.inputSearchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105166300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Search",
+            "match": {
+              "location": "BaiduSearchStep.clickSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1767462500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify page Iscontains search keywork \"context\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "context",
+                  "offset": 39
+                }
+              ],
+              "location": "BaiduSearchStep.verifyPageIscontainsSearchKeywork(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Testing Search with Baidu",
+        "description": "",
+        "id": "baidusearch;testing-search-with-baidu;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9445665000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser With Chrome",
+            "match": {
+              "location": "BaiduSearchStep.open_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1410429300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser baidu url \"https://www.baidu.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.baidu.com",
+                  "offset": 19
+                }
+              ],
+              "location": "BaiduSearchStep.browserBaiduUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339727900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "input SearchText \"Hello World\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello World",
+                  "offset": 18
+                }
+              ],
+              "location": "BaiduSearchStep.inputSearchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199626100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Search",
+            "match": {
+              "location": "BaiduSearchStep.clickSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1916764700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify page Iscontains search keywork \"Hello World\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello World",
+                  "offset": 39
+                }
+              ],
+              "location": "BaiduSearchStep.verifyPageIscontainsSearchKeywork(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "BaiduSearch",
+    "description": "",
+    "id": "baidusearch",
+    "keyword": "Feature",
+    "uri": "BaiduSearch.feature"
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="32.149352">
+<testcase classname="BaiduSearch" name="Testing Search with Baidu" time="18.837139">
+<system-out><![CDATA[Given Open Browser With Chrome..............................................passed
+When browser baidu url "https://www.baidu.com"..............................passed
+And input SearchText "context"..............................................passed
+And Click Search............................................................passed
+Then verify page Iscontains search keywork "context"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="BaiduSearch" name="Testing Search with Baidu 2" time="13.312213">
+<system-out><![CDATA[Given Open Browser With Chrome..............................................passed
+When browser baidu url "https://www.baidu.com"..............................passed
+And input SearchText "Hello World"..........................................passed
+And Click Search............................................................passed
+Then verify page Iscontains search keywork "Hello World"....................passed
+]]></system-out>
+</testcase>
+</testsuite>

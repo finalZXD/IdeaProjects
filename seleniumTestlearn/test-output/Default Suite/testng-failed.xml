@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="seleniumTestlearn(failed)">
+    <classes>
+      <class name="com.lin.selenium.testCase.login">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="TestAddCart"/>
+          <include name="TestGetLoginHome"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.lin.selenium.testCase.login -->
+    </classes>
+  </test> <!-- seleniumTestlearn(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
