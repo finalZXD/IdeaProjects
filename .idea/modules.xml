@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BIM/BIM.iml" filepath="$PROJECT_DIR$/BIM/BIM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Character1/Character1.iml" filepath="$PROJECT_DIR$/Character1/Character1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDSeleniumtest/lin.iml" filepath="$PROJECT_DIR$/JDSeleniumtest/lin.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testApi/testApi.iml" filepath="$PROJECT_DIR$/testApi/testApi.iml" />
     </modules>
   </component>
 </project>

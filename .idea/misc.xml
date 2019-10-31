@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/BIM/pom.xml" />
         <option value="$PROJECT_DIR$/JDSeleniumtest/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/testApi/pom.xml" />
+        <option value="$PROJECT_DIR$/Character1/pom.xml" />
       </list>
     </option>
   </component>

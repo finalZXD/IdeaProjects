@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BIM" />
+        <module name="Character1" />
         <module name="lin" />
+        <module name="testApi" />
+        <module name="BIM" />
         <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BIM" target="1.8" />
+      <module name="Character1" target="1.8" />
       <module name="lin" target="1.8" />
       <module name="test" target="7" />
+      <module name="testApi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

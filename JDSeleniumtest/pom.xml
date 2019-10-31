@@ -46,12 +46,13 @@
             <version>4.0.9</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>4.0.9</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
+
     </dependencies>
     <!--配置properties文件-->
     <build>
