@@ -1,0 +1,38 @@
+Index: src/test/java/com/CXAgent/UI/CXAgent_Login.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/CXAgent/UI/CXAgent_Login.java	(date 1576035052657)
++++ src/test/java/com/CXAgent/UI/CXAgent_Login.java	(date 1576035052657)
+@@ -0,0 +1,30 @@
++package com.CXAgent.UI;
++
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.chrome.ChromeDriver;
++import org.testng.annotations.AfterClass;
++import org.testng.annotations.BeforeClass;
++import org.testng.annotations.Test;
++
++public class CXAgent_Login {
++
++    @BeforeClass
++    public void beforeClass(){
++
++        System.out.println("开始");
++    }
++
++    @AfterClass
++    public void afterClass(){
++        System.out.println("结束");
++    }
++    @Test
++    public void Login(){
++        //System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
++        WebDriver driver = new ChromeDriver();
++        driver.get("https://www.baidu.com");
++        driver.findElement(By.id("su")).sendKeys("Hi");
++        driver.close();
++    }
++}
